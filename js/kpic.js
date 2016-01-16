@@ -97,7 +97,7 @@
             kpicOpen.gal = $(this).data('kgallery');
 
             kpicContainerPic.find('.number .a').html(kpicOpen.id+1);
-            kpicContainerPic.find('.number .b').html(kpic[gal].length);
+            kpicContainerPic.find('.number .b').html(kpic[kpicOpen.gal].length);
 
             img.onload = function() {
 
