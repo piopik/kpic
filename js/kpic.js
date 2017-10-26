@@ -142,4 +142,6 @@
 
         });
     };
+
+window.kpic=kpic;
 //});
